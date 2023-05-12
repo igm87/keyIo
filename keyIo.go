@@ -1,6 +1,6 @@
 package keyIo
 
-//keyIo returns a string of data from Stdin and nil on success or empty string and nil
+//keyIo returns a string of data from Stdin and nil on success or empty string and error
 //on failure, package user must supply directive to user, i.e. please enter foo etc
 
 import (
